@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReactBoard", "ReactBoard\Re
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ReactBoard.SqlServer", "ReactBoard.SqlServer\ReactBoard.SqlServer.sqlproj", "{BD64546D-EA92-489C-B251-D5033638F437}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "EntryApp.SqlServer", "EntryApp.SqlServer\EntryApp.SqlServer.sqlproj", "{A4F17EA7-767B-4F2A-89CF-58AEF89163D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,12 @@ Global
 		{BD64546D-EA92-489C-B251-D5033638F437}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD64546D-EA92-489C-B251-D5033638F437}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BD64546D-EA92-489C-B251-D5033638F437}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A4F17EA7-767B-4F2A-89CF-58AEF89163D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4F17EA7-767B-4F2A-89CF-58AEF89163D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4F17EA7-767B-4F2A-89CF-58AEF89163D3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A4F17EA7-767B-4F2A-89CF-58AEF89163D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4F17EA7-767B-4F2A-89CF-58AEF89163D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4F17EA7-767B-4F2A-89CF-58AEF89163D3}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
