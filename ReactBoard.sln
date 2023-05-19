@@ -9,6 +9,8 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ReactBoard.SqlServer", "Rea
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "EntryApp.SqlServer", "EntryApp.SqlServer\EntryApp.SqlServer.sqlproj", "{A4F17EA7-767B-4F2A-89CF-58AEF89163D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntryApp.Models", "EntryApp.Models\EntryApp.Models.csproj", "{63B5D63D-C7D9-4297-AA97-4D0EFA661389}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{A4F17EA7-767B-4F2A-89CF-58AEF89163D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4F17EA7-767B-4F2A-89CF-58AEF89163D3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A4F17EA7-767B-4F2A-89CF-58AEF89163D3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{63B5D63D-C7D9-4297-AA97-4D0EFA661389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63B5D63D-C7D9-4297-AA97-4D0EFA661389}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63B5D63D-C7D9-4297-AA97-4D0EFA661389}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63B5D63D-C7D9-4297-AA97-4D0EFA661389}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
