@@ -9,7 +9,7 @@ namespace EntryApp.Models
     /// [4] Repository Class : ADO.NET or Dapper(Micro ORM) OR Entity Framework Core(ORM)
     /// ~Repository, ~Provider, ~Data
     /// </summary>
-    public class EntryRepository : IEntryRepository
+    public class EntryRepository : IEntryRepository, IDisposable
     {
         private readonly EntryAppDbContext _context;
         private readonly ILogger _logger;
@@ -201,7 +201,25 @@ namespace EntryApp.Models
             return new ArticleSet<Entry, long>(await items.ToListAsync(), totalCount);
         }
 
+        #region Dispose
+        // https://docs.microsoft.com/ko-kr/dotnet/api/system.gc.suppressfinalize?view=net-5.0
+        public void Dispose()
+        {
+            Dispose(true);
+            GC.SuppressFinalize(this);
+        }
 
+        protected virtual void Dispose(bool disposing)
+        {
+            if (disposing)
+            {
+                if (_context != null)
+                {
+                    _context.Dispose(); //_context = null;
+                }
+            }
+        }
+        #endregion
     }
 
     public class EntryRepositoyAdoNet
