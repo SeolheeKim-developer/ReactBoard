@@ -11,6 +11,8 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "EntryApp.SqlServer", "Entry
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntryApp.Models", "EntryApp.Models\EntryApp.Models.csproj", "{63B5D63D-C7D9-4297-AA97-4D0EFA661389}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntryApp.Models.Tests", "EntryApp.Models.Tests\EntryApp.Models.Tests.csproj", "{5DD687C0-5CAC-4DCF-8725-F68609EAECC1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{63B5D63D-C7D9-4297-AA97-4D0EFA661389}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63B5D63D-C7D9-4297-AA97-4D0EFA661389}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63B5D63D-C7D9-4297-AA97-4D0EFA661389}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DD687C0-5CAC-4DCF-8725-F68609EAECC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DD687C0-5CAC-4DCF-8725-F68609EAECC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DD687C0-5CAC-4DCF-8725-F68609EAECC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DD687C0-5CAC-4DCF-8725-F68609EAECC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
