@@ -19,6 +19,7 @@ namespace EntryApp.Apis
             // EntryApp 관련 의존성(종속성) 주입 관련 코드만 따로 모아서 관리 
             var configuration = builder.Configuration; // Retrieve the configuration object
             AddDependencyInjectionContainerForEntryApp(builder.Services, configuration);
+            //builder.Services.AddDependencyInjectionContainerForEntryApp(Configuration);
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
